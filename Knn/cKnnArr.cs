@@ -19,7 +19,7 @@ namespace Knn
         {
             mK = _k;
             mArrKnn = new Knn[_max];
-            mDisByClass = new TotalDisClass[50];  //Cần tạo số phần tử == Số hiệu Class lớn nhất
+            mDisByClass = new TotalDisClass[51];  //Cần tạo số phần tử == Số hiệu Class lớn nhất
         }
 
         //Sắp xếp ArrKnn giảm dần theo Distance
@@ -48,7 +48,7 @@ namespace Knn
             Sort();
 
             //Khởi tạo
-            for (int i = 0; i < 50; i++)  //Chỉ cần chạy đến 50. Vì số hiệu lớp trong bộ DLieu chỉ đến 15
+            for (int i = 0; i < 51; i++)  //Chỉ cần chạy đến 50. Vì số hiệu lớp trong bộ DLieu <= 50
             {
                 mDisByClass[i].TotalDis = 0;
                 mDisByClass[i].Class = 0;
@@ -73,7 +73,7 @@ namespace Knn
             //Tìm lớp có TotalDis lớn nhất
             max = mDisByClass[0];
             int pos_max = 0;
-            for (int i = 1; i < 50; i++)
+            for (int i = 1; i < 51; i++)
             {
                 if (mDisByClass[i].TotalDis > max.TotalDis)
                 {

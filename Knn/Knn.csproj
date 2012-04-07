@@ -73,11 +73,11 @@
     <Compile Include="cKnn.cs" />
     <Compile Include="cKnnArr.cs" />
     <Compile Include="cVector.cs" />
-    <Compile Include="frmMain.cs">
+    <Compile Include="frmmain.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="frmMain.Designer.cs">
-      <DependentUpon>frmMain.cs</DependentUpon>
+    <Compile Include="frmmain.Designer.cs">
+      <DependentUpon>frmmain.cs</DependentUpon>
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="cWordFile.cs" />
@@ -98,8 +98,8 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="frmMain.resx">
-      <DependentUpon>frmMain.cs</DependentUpon>
+    <EmbeddedResource Include="frmmain.resx">
+      <DependentUpon>frmmain.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
