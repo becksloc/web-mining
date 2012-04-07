@@ -359,7 +359,7 @@ Err:
 		
 		public void AboutToolStripMenuItem_Click(System.Object sender, System.EventArgs e)
 		{			
-            MessageBox.Show("Chương trình mô phỏng thuật toán k-nearest neighbour" + '\r' + '\n' + "Tác giả: Nguyễn Thanh Bình - Lớp K15 Hệ thống thông tin", "Gioi thieu", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            MessageBox.Show("Chương trình mô phỏng thuật toán k-nearest neighbour" + '\r' + '\n' + "Tác giả: Nguyễn Thế Lộc - Lớp K16HTTT1", "Gioi thieu", MessageBoxButtons.OK, MessageBoxIcon.Information);
 		}
 		
 		public void mnuExit_Click(System.Object sender, System.EventArgs e)

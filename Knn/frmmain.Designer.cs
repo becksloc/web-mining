@@ -101,27 +101,27 @@ namespace Knn
             this.mnuOpentestfile,
             this.mnuExit});
                 this.mnuFile.Name = "mnuFile";
-                this.mnuFile.Size = new System.Drawing.Size(35, 20);
+                this.mnuFile.Size = new System.Drawing.Size(37, 20);
                 this.mnuFile.Text = "&File";
                 // 
                 // mnuOpentrainingfile
                 // 
                 this.mnuOpentrainingfile.Name = "mnuOpentrainingfile";
-                this.mnuOpentrainingfile.Size = new System.Drawing.Size(187, 22);
+                this.mnuOpentrainingfile.Size = new System.Drawing.Size(185, 22);
                 this.mnuOpentrainingfile.Text = "Mở file huấn &luyện ...";
                 this.mnuOpentrainingfile.Click += new System.EventHandler(this.mnuOpentrainingfile_Click);
                 // 
                 // mnuOpentestfile
                 // 
                 this.mnuOpentestfile.Name = "mnuOpentestfile";
-                this.mnuOpentestfile.Size = new System.Drawing.Size(187, 22);
+                this.mnuOpentestfile.Size = new System.Drawing.Size(185, 22);
                 this.mnuOpentestfile.Text = "Mở file &test";
                 this.mnuOpentestfile.Click += new System.EventHandler(this.mnuOpentestfile_Click);
                 // 
                 // mnuExit
                 // 
                 this.mnuExit.Name = "mnuExit";
-                this.mnuExit.Size = new System.Drawing.Size(187, 22);
+                this.mnuExit.Size = new System.Drawing.Size(185, 22);
                 this.mnuExit.Text = "T&hoát";
                 this.mnuExit.Click += new System.EventHandler(this.mnuExit_Click);
                 // 
@@ -131,7 +131,7 @@ namespace Knn
             this.hướngDẫnToolStripMenuItem,
             this.AboutToolStripMenuItem});
                 this.HelpToolStripMenuItem.Name = "HelpToolStripMenuItem";
-                this.HelpToolStripMenuItem.Size = new System.Drawing.Size(58, 20);
+                this.HelpToolStripMenuItem.Size = new System.Drawing.Size(64, 20);
                 this.HelpToolStripMenuItem.Text = "&Trợ giúp";
                 // 
                 // hướngDẫnToolStripMenuItem
@@ -511,7 +511,7 @@ namespace Knn
                 this.MainMenuStrip = this.MenuStrip1;
                 this.Name = "frmmain";
                 this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-                this.Text = "Nguyen Thanh Binh";
+                this.Text = "Phan lop k-NN";
                 this.Load += new System.EventHandler(this.frmmain_Load);
                 this.MenuStrip1.ResumeLayout(false);
                 this.MenuStrip1.PerformLayout();
